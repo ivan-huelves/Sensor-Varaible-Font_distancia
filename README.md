@@ -6,7 +6,7 @@ Providing variable fonts with a semantic use in graphic interfaces to establish 
 
 ## Prototipo Nº1. Sensor de distancia aplicado al cuadro de control de un automóvil
 
-
+![Sensor Variable Font - distancia](/img/sensorvariablefont-distancia.jpg)
 
 En el primer prototipo se ha considerado pertinente simular la interfaz del ordenador de abordo de un coche, relacionando la distancia a la que se encuentra el automóvil respecto otro objeto, coche o persona.
 
