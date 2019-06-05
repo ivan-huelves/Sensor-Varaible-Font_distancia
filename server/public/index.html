@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sensor Variable Font - Distancia</title>
+        <link rel=StyleSheet href="style.css" type="text/css" media=screen>
+        <!-- para poder tener la biblioteca de SocketIo que comunica en tiempo real -->
+        <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+        <!-- para comunicarnos con el Js -->
+        <script src="/main.js" charset="utf-8"></script>
+  
+    </head>
+    <body>
+        <div class="cont">
+            <img id="fondo" src="ilustraciones-prototipos-distancia-04.svg">
+            <!-- MODIFICO EL EJE DE VARIACIÓN CON EL VALOR CALCULADO -->
+            <div id="valorModificaEjeVariacion">
+            <!-- MUESTRO EL VALOR RECOGIDO POR EL SENSOR -->    
+                <span id="muestroValorSensor"></span>
+            </div>
+            
+            <div id="info">
+                <div id="Modulo11"><span class="bold">Sensor:</span> Distancia</div>
+                <div id="Modulo21"><span class="bold">Tipografía variable:</span> Kairos Sans Variable</div>
+                <div id="Modulo31"><span class="bold">Eje de variación:</span> Peso</div>
+                <div id="Modulo41"><span class="bold">Función Significativa:</span> Incremento exponencial + yuxtaposición</div>
+                
+                <div id="Modulo12" class="bold">Función normalizadora:</div>
+                <div id="Modulo22">&nbsp;</div>
+                <div id="Modulo32">&nbsp;</div>
+                <div id="Modulo42">Valor registrado:</div>
+
+                <div id="Modulo13">Valor distancia</div>
+                <div id="Modulo23" class="thin">4</div>
+                <div id="Modulo33" class="thin">100</div>
+                <div id="Modulo43"><span id="muestroValorSensorBis"></span></div>
+
+                <div id="Modulo14">Valor e.peso</div>
+                <div id="Modulo24" class="thin">900</div>
+                <div id="Modulo34" class="thin">250</div>
+                <div id="Modulo44"><span id="muestroValorEjeVariacion"></span></div>
+           
+            </div>
+       
+        </div> 
+        
+    </body>
+</html>
