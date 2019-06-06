@@ -48,7 +48,7 @@ five.Board().on('ready', function () {
     
     //FUNCIÓN NORMALIZADORA
     //el constrain es para limitar los valores máximos y mínimos
-    valorNormalizado = five.Fn.constrain(five.Fn.map(valorSensor, 2, 400, 900, 250), 250, 900);
+    valorNormalizado = five.Fn.constrain(five.Fn.map(valorSensor, 2, 40, 900, 250), 250, 900);
     console.log(valorSensor);
   });
 })
