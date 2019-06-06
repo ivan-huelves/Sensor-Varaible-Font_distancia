@@ -62,7 +62,7 @@ body{
     left: 4em;
 
     display: grid;
-    grid-template-columns: 49vh 13vh 12vh;
+    grid-template-columns: 49vh 18.5vh 12vh;
     grid-gap: 0.1vh;
     grid-template-areas:  "Modulo11 Modulo12 Modulo13 Modulo14"
                           "Modulo21 Modulo22 Modulo23 Modulo24"
