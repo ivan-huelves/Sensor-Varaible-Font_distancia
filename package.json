@@ -1,5 +1,5 @@
 {
-  "name": "Sensor Variable Font - distancia",
+  "name": "sensor-variable-font_distancia",
   "version": "1.0.0",
   "description": " Dar un uso semántico a las tipografías variables en interfaces gráficas, estableciendo una relación entre la propia tipografía y los datos recogidos por diferentes sensores. // Providing variable fonts with a semantic use in graphic interfaces to establish a relationship between typography and the data collected by different sensors.",
   "main": "index.js",
