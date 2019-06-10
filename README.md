@@ -4,7 +4,7 @@ El proyecto da un uso semántico a las tipografías variables en interfaces grá
 
 Providing variable fonts with a semantic use in graphic interfaces to establish a relationship between typography and the data collected by different sensors.
 
-## Prototipo Nº1. Sensor de distancia aplicado al cuadro de control de un automóvil
+## Prototipo Nº1. Sensor de distancia aplicado al peso de la tipografía en el cuadro de control de un automóvil
 
 ![Sensor Variable Font - distancia](/img/sensorvariablefont-distancia.jpg)
 
